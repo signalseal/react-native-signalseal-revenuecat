@@ -1,0 +1,39 @@
+{
+  "name": "@signalseal/react-native-revenuecat",
+  "version": "0.1.0",
+  "description": "Pushes SignalSeal attribution onto RevenueCat subscriber attributes. Pure JS — no native code, no bundled Purchases SDK.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "source": "src/index.ts",
+  "files": [
+    "lib",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "react-native",
+    "signalseal",
+    "revenuecat",
+    "react-native-purchases",
+    "attribution",
+    "mmp",
+    "subscriber-attributes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signalseal/react-native-signalseal-revenuecat.git"
+  },
+  "author": "SignalSeal <hello@signalseal.net>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native-purchases": ">=7.0.0"
+  },
+  "devDependencies": {
+    "react-native-purchases": "^8.0.0",
+    "typescript": "^5.8.3"
+  }
+}
